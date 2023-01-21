@@ -1,0 +1,25 @@
+dotnet new webapi -n PlatformaService
+
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+dotnet add package Microsoft.EntityFrameworkCore
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+
+
+TIP: 
+on Visual Studio, 
+Ctrl + . to display visual studio suggestion
+PROP + Tab : Create property setter & getter
+CTOR + Tab : Create contructor
+
+code: github.com/binarythistle
+
+------Docker command--------
+
+docker run -p 8080:80 -d <docker hub id>/platformservice
+docker ps
+docker push <docker hub id>/platformservice
